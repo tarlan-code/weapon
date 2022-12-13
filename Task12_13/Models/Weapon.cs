@@ -75,6 +75,7 @@ namespace Task12_13.Models
             else
             {
                 Console.WriteLine("Daraqda gulle qalmayib");
+                IsReload();
             }
             
             
@@ -93,6 +94,7 @@ namespace Task12_13.Models
                 else
                 {
                     Console.WriteLine("Daraqda gulle qalmayib");
+                    IsReload();
                 }
             }
 
@@ -158,9 +160,21 @@ namespace Task12_13.Models
             return (BulletCapacity / BulletEmptyTime);
         }
 
-        //bool IsReload()
-        //{
-        //    Console.WriteLine("Reload etmek isteyirsiz?(he/yox): ");
-        //}
+        void IsReload()
+        {
+            Console.WriteLine("Reload etmek isteyirsiz?(he/yox): ");
+            string keyword = Console.ReadLine().Trim().ToLower();
+            switch (keyword)
+            {
+                case "he":
+                    Reload();
+                    break;
+                case "yox":
+                    break;
+                default:
+                    Console.WriteLine("Yanlish komanda daxil edildi Reload etmek uchun -5- qisa yolundan istifade edin");
+                    break;
+            }
+        }
     }
 }
