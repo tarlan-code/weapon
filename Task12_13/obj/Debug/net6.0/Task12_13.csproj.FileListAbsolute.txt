@@ -1,0 +1,15 @@
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\bin\Debug\net6.0\Task12_13.exe
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\bin\Debug\net6.0\Task12_13.deps.json
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\bin\Debug\net6.0\Task12_13.runtimeconfig.json
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\bin\Debug\net6.0\Task12_13.dll
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\bin\Debug\net6.0\Task12_13.pdb
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\obj\Debug\net6.0\Task12_13.csproj.AssemblyReference.cache
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\obj\Debug\net6.0\Task12_13.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\obj\Debug\net6.0\Task12_13.AssemblyInfoInputs.cache
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\obj\Debug\net6.0\Task12_13.AssemblyInfo.cs
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\obj\Debug\net6.0\Task12_13.csproj.CoreCompileInputs.cache
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\obj\Debug\net6.0\Task12_13.dll
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\obj\Debug\net6.0\refint\Task12_13.dll
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\obj\Debug\net6.0\Task12_13.pdb
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\obj\Debug\net6.0\Task12_13.genruntimeconfig.cache
+D:\Code Academy\Fullstack backend\Task12_13\Task12_13\obj\Debug\net6.0\ref\Task12_13.dll
