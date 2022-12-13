@@ -10,7 +10,7 @@ namespace Task12_13
             bool breakpoint = true;
             do
             {
-                Console.WriteLine("\n1 - İnformasiya al\n2 - Shoot\n3 - Fire\n4 - Hazirki gulle sayi\n5 - Reload\n6 - Modu deyish\n7 - Proqramdan dayandır");
+                Console.WriteLine("\n1 - İnformasiya al\n2 - Shoot\n3 - Fire\n4 - Lazim olan gulle sayi\n5 - Reload\n6 - Modu deyish\n7 - Proqramdan dayandır");
                 Console.Write("Qisa yolu daxil edin: ");
                 byte.TryParse(Console.ReadLine(), out byte key);
                 switch (key)
@@ -29,7 +29,7 @@ namespace Task12_13
                         break;
                     case 4:
                         Console.Clear();
-                        Console.WriteLine($"Hazirki gulle sayi: {weapon.GetRemainBulletCount()}");
+                        Console.WriteLine($"Daragi doldurmaq ucun lazim olan gulle sayi: {weapon.GetRemainBulletCount()}");
                         break;
                     case 5:
                         Console.Clear();

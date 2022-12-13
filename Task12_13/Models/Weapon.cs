@@ -12,7 +12,7 @@ namespace Task12_13.Models
         byte _bulletCount;
         float _bulletEmptyTime;
         bool _isMode;
-        byte ShootTime1Bullet;
+      
 
         public byte BulletCapacity { 
             get => _bulletCapacity;
@@ -86,7 +86,7 @@ namespace Task12_13.Models
             {
                 if (BulletCount >0)
                 {
-                    Console.WriteLine("Butun gulleler ateslendi");
+                    Console.WriteLine($"Butun gulleler ateslendi  Vaxt: {GetTime1Bullet()*BulletCount}");
                     BulletCount = 0;
                 }
 
@@ -106,7 +106,8 @@ namespace Task12_13.Models
 
         public byte GetRemainBulletCount()
         {
-            return BulletCount;
+
+            return (byte)(BulletCapacity - BulletCount);
         }
 
         public void Reload()
@@ -156,5 +157,10 @@ namespace Task12_13.Models
         {
             return (BulletCapacity / BulletEmptyTime);
         }
+
+        //bool IsReload()
+        //{
+        //    Console.WriteLine("Reload etmek isteyirsiz?(he/yox): ");
+        //}
     }
 }
